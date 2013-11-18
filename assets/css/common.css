@@ -51,6 +51,99 @@
 
 }
 
+@font-face {
+    font-family: "CODE_BOLD";
+    src: url("/assets/fonts/CODE_Bold.otf") format("truetype");
+}
+p.customfont { 
+    font-family: "CODE_BOLD", Verdana, Tahoma;
+}
+/*
+.profile-image {
+  z-index: 1000000;
+  max-height: 115px;
+  max-width: 90px;
+  position: fixed;
+  top: 60%;
+  left: 20%;
+}
+
+.overlay {
+  z-index: 1000000;
+  max-height: 100px;
+  max-width: 90px;
+  position: fixed;
+  top: 60%;
+  left: 20%;
+}
+
+.profile-image:hover .overlay {
+  position:fixed;
+  top: 60%;
+  left: 20%;
+  max-height: 100px;
+  max-width: 90px;
+  z-index: 1000000;
+  background: transparent url("/assets/img/page2/creative_icon_overlay.png") no-repeat;
+  cursor: pointer;
+}
+*/
+div.top {
+  margin: 20px 0;
+  position: fixed;
+  max-height: 135px;
+  max-width: 110px;
+  /*border: 1px solid #aaa;*/
+  overflow: hidden;
+  } 
+  
+div.top div {
+  top: 60%;
+  left: 20%;
+  font-size: 12px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  /*background: #fff;*/
+  }
+    
+div.top div.first {
+  z-index: 1000;
+  max-height: 135px;
+  max-width: 130px;
+  }   
+
+div.top div.second {
+  max-height: 150px;
+  max-width: 150px;
+}
+    
+div.top:hover div.first {
+  display: none;
+  }
+
+div.top-strategy {
+  top: 60%;
+  left: 22%;
+}
+
+div.top-creative {
+  top: 60%;
+  left: 37%;
+}
+
+div.top-development {
+  top: 60%;
+  left: 52%;
+}
+
+div.top-experimential {
+  top: 60%;
+  left: 67%;
+}
+
 .button-pressed-in {
   background-image: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
