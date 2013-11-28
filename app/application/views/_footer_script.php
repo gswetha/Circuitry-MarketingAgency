@@ -5,6 +5,7 @@
 <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> -->
 <script type="text/javascript" src="/assets/js/jquery-1.8.3.js"></script>
 <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/js/common.js"></script>
 <script type="text/javascript">
 $('.carousel').carousel({
   interval: 200000

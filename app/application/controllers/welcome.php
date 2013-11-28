@@ -22,6 +22,11 @@ class Welcome extends CI_Controller {
 		$this->load->view('home');
 		// $this->load->view('welcome_sidescroll');
 	}
+
+	public function services()
+	{
+		$this->load->view('services');
+	}
 }
 
 /* End of file welcome.php */
