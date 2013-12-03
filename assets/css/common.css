@@ -34,7 +34,7 @@
 }
 
 #page5 {
-    background: url("/assets/img/background5_contact.png") no-repeat center center fixed; 
+    background: url("/assets/img/background5_contact_full.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,7 +43,7 @@
 }
 
 #page6 {
-    background: url("/assets/img/background6.png") no-repeat center center fixed; 
+    background: url("/assets/img/background6_pricing.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,6 +58,14 @@
     -o-background-size: cover;
     background-size: cover;
 
+}
+
+#example-a-details {
+    background: url("/assets/img/page3b_example_details/example_a_full.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 @font-face {
@@ -228,6 +236,20 @@ div.top-development {
 div.top-experiential {
   top: 60%;
   left: 67%;
+}
+
+div.top-facebook {
+  top: 30%;
+  left: 69%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+div.top-twitter {
+  top: 45%;
+  left: 69%;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 div.top-all-work-example {

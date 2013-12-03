@@ -24,8 +24,17 @@ class Welcome extends CI_Controller {
 	}
 
 	public function services()
+	{	
+		$this->load->helper('url');
+		$data['load_type'] = $this->uri->segment(3);
+		$this->load->view('services', $data);
+	}
+
+	public function example_details()
 	{
-		$this->load->view('services');
+		$this->load->helper('url');
+		$data['example_type'] = $this->uri->segment(3);
+		$this->load->view($data['example_type'], $data);
 	}
 }
 
